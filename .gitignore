@@ -1,0 +1,29 @@
+node_modules/
+dist/
+outputs/
+data/imports/
+data/market-data.json
+data/settings.json
+*.pem
+*.log
+
+# mobile app excluded
+mobile-app/
+
+# dependencies/build/cache
+node_modules/
+dist/
+build/
+coverage/
+outputs/
+scratch/
+__pycache__/
+*.py[cod]
+*.log
+
+# private data/secrets
+.env
+.env.*
+*.pem
+*.key
+data/

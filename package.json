@@ -1,0 +1,27 @@
+{
+  "name": "stock-portfolio-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "concurrently -k \"vite --host 127.0.0.1\" \"cross-env VITE_DEV_SERVER_URL=http://127.0.0.1:5173 node scripts/dev-electron-watch.cjs\"",
+    "start": "electron .",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "electron": "^39.2.7",
+    "lucide-react": "^0.555.0",
+    "papaparse": "^5.5.3",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "recharts": "^3.5.0",
+    "selfsigned": "^5.5.0",
+    "vite": "^7.2.6",
+    "wait-on": "^9.0.3"
+  }
+}
