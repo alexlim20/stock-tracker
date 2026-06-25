@@ -1,5 +1,5 @@
 import Papa from "papaparse";
-import sampleTradesCsv from "../../data/sample.csv?raw";
+import sampleTradesCsv from "./sample.csv?raw";
 import { DEFAULT_MARKET_DATA } from "../shared/marketData.js";
 
 const DEFAULT_MEDIA_PIPELINE_PATHS = {
