@@ -22,8 +22,8 @@ import { portfolioApi } from "./api.js";
 
 const MEDIA_PIPELINE_PATHS_STORAGE_KEY = "mediaPipelinePaths";
 const DEFAULT_MEDIA_PIPELINE_PATHS = {
-  sourcePath: "C:\\Users\\Alex2\\Downloads\\Pixel_Dump",
-  targetPath: "C:\\Users\\Alex2\\Downloads\\Organized_Media"
+  sourcePath: "",
+  targetPath: ""
 };
 
 function readStoredMediaPipelinePaths() {

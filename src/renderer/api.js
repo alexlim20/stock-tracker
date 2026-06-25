@@ -3,8 +3,8 @@ import sampleTradesCsv from "./sample.csv?raw";
 import { DEFAULT_MARKET_DATA } from "../shared/marketData.js";
 
 const DEFAULT_MEDIA_PIPELINE_PATHS = {
-  sourcePath: "C:\\Users\\Alex2\\Downloads\\Pixel_Dump",
-  targetPath: "C:\\Users\\Alex2\\Downloads\\Organized_Media"
+  sourcePath: "",
+  targetPath: ""
 };
 
 const defaultBankingState = {
